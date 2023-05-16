@@ -12,5 +12,16 @@ public class ExerciceBoucleBase {
             String nom = "kone", prenom = "mamoudou";
             System.out.println(nom + " " + prenom);
         }
+
+        for (int i = 0; i <= 100 ; i++) {
+            if(i % 2 == 0){
+                System.out.println(i);
+            }
+        }
+        for (int i = 0; i < 100 ; i++) {
+            if(i % 2 != 0){
+                System.out.println(i);
+            }
+        }
     }
 }
