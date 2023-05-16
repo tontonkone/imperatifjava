@@ -8,6 +8,9 @@ public class ExerciceBouclesEtTests {
 
         for (int i = 0; i < array.length; i++) {
             System.out.println(array[i]);
+
+            if(array[i] > 3)
+                System.out.println("sup a 3 " + array[i]);
         }
 
 
@@ -15,9 +18,14 @@ public class ExerciceBouclesEtTests {
             System.out.println("Inverser les elements :" + array[i]);
         }
 
-        for (int i = 0; i < array.length; i++) {
-            if(array[i] > 3)
-                System.out.println(array[i]);
+
+        for (int i = 0; i < array.length ; i++) {
+            if(i % 2 == 0 ){
+
+                System.out.println("index " + array[i]);
+            }
+
         }
+
     }
 }
