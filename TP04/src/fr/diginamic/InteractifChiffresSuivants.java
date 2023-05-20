@@ -15,10 +15,13 @@ public class InteractifChiffresSuivants {
 
         Scanner scanner = new Scanner(System.in) ;
         int nb = scanner.nextInt() ;
+        int somme = 0;
+        for (int i = 0; i <= nb; i++) {
 
-        for (int i = 0; i < 10; i++) {
-            System.out.println((i +1 )+ nb);
+            somme += i;
         }
+        System.out.println(somme);
+
     }
 
 }
